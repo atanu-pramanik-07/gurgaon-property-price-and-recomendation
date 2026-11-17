@@ -50,8 +50,6 @@
     └── Model Training/                      # Baseline Model, Model Selection (Optuna), Recommender
 ```
 
-> **Note on `house_price_model.pkl`:** Because the serialized 750-tree `RandomForestRegressor` pipeline exceeds GitHub's standard file preview limits, its placement inside `price_prediction/house_price_model.pkl` is verified in the project directory screenshot (`Screenshot 2026-11-15 121850.png`) and can be regenerated directly by running the final cells of `Model Training/Model Selection.ipynb`.
-
 ## 🔬 End-to-End Machine Learning Pipeline
 
 ### 1. Data Cleaning & Harmonization (`13,559` $\rightarrow$ `13,134` Listings)
